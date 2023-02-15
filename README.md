@@ -1,16 +1,16 @@
 # ScribbleHub Explorer
 ScribbleHub Explorer is a project aimed at providing AI powered recommendations for users of ScribbleHub. It does so by using two recommendation systems - a Content-Based Recommendation System based on Cosine Similarity and a User-Item Collaborative Filtering Recommendation System using Alternating Least Squares (Matrix Factorization). The dataset used for these recommendations is generated from implicit feedback scraped from ScribbleHub reading lists.
 
-The project includes a Top 100 page which uses IMDB's Top 250 ranking system, a statistics page and several other pages. The project is built using Streamlit and the live version of the project can be found at <insert URL>.
+The project includes a Top 100 page which uses IMDB's Top 250 ranking system, a statistics page and several other pages.
 
 Note that this is still in early stages of development, so expect bugs and crashes. I'm working on getting them fixed. If you should experience any unexpected crashes, or have general feedback or suggestion, please contact me.
 
 ## Features
-Two methods of generating recommendations - Content-Based and Collaborative Filtering
-A Top 100 page that uses IMDB's Top 250 ranking system
-A statistics page with the latest scraped novel statistics
-The ability to filter viewed novels on pages 1, 2, and 3 using the filter options in the sidebar
-Ability to sort novels on various of measures, such as Popularity, Favorites, Readers, Chapters, etc.
+Two methods of generating recommendations - Content-Based and Collaborative Filtering  
+A Top 100 page that uses IMDB's Top 250 ranking system  
+A statistics page with the latest scraped novel statistics  
+The ability to filter viewed novels on pages 1, 2, and 3 using the filter options in the sidebar  
+Ability to sort novels on various of measures, such as Popularity, Favorites, Readers, Chapters, etc.  
 
 ## Requirements
 To run ScribbleHub Explorer, you will need the following dependencies installed:
