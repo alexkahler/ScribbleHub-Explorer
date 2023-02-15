@@ -15,14 +15,14 @@ Ability to sort novels on various of measures, such as Popularity, Favorites, Re
 ## Requirements
 To run ScribbleHub Explorer, you will need the following dependencies installed:
 
-- streamlit==1.18.1
-- scipy==1.10.0
-- pandas==1.5.3
-- numpy==1.24.1
-- zstandard==0.19.0
-- scikit-learn==1.2.1
-- implicit==0.6.2
-- streamlit-extras==0.2.6
+    - streamlit==1.18.1
+    - scipy==1.10.0
+    - pandas==1.5.3
+    - numpy==1.24.1
+    - zstandard==0.19.0
+    - scikit-learn==1.2.1
+    - implicit==0.6.2
+    - streamlit-extras==0.2.6
 
 ## Pages
 ScribbleHub Explorer has five main pages:
