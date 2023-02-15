@@ -28,22 +28,22 @@ To run ScribbleHub Explorer, you will need the following dependencies installed:
 ScribbleHub Explorer has five main pages:
 
 Page 1 is for "pure" Content-Based Recommendations. Users can input the ID for a novel that they want recommendations for.
-[Main page for Content-Based Recommendations](https://i.imgur.com/Xee1sSc.jpeg)
+![Main page for Content-Based Recommendations](https://i.imgur.com/Xee1sSc.jpeg)
 
 Page 2 is for Collaborative Filtering Recommendations. Users can type in their user ID in the sidebar to view recommendations based on their reading lists. 
-[Page 2](https://i.imgur.com/a8JPpur.jpeg)
+![Page 2](https://i.imgur.com/a8JPpur.jpeg)
 
 In the second tab, users can input the ID for a novel and view similar novels based on the input.
-[Similar novels tag](https://i.imgur.com/TuvxHNb.jpeg)
+![Similar novels tag](https://i.imgur.com/TuvxHNb.jpeg)
 
 Page 3 is the Top 100 page.
-[Top 100](https://i.imgur.com/W72DAWj.jpeg)
+![Top 100](https://i.imgur.com/W72DAWj.jpeg)
 
 Users can filter any viewed novels using the filter options in the sidebar on pages 1, 2, and 3.
-[Filtering recommendations](https://i.imgur.com/Gv7qWiz.jpeg)
+![Filtering recommendations](https://i.imgur.com/Gv7qWiz.jpeg)
 
 Page 4 is the statistics page, where the latest scraped novel statistics can be found.
-[Statistics](https://i.imgur.com/hs4XRrK.jpeg)
+![Statistics](https://i.imgur.com/hs4XRrK.jpeg)
 
 Page 5 is the FAQ & About page.
 
