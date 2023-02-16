@@ -111,9 +111,9 @@ readers and authors. """)
             immediately reflected in ScribbleHub Explorer until I have created the change to query ScribbleHub
             for the latest user profile.""")
     stoggle("What if I want my novel to be removed from ScribbleHub Explorer?",
-            """If you want your novel removed from this app, please contact me using the [contact form](#contact) below.""")
+            """If you want your novel removed from this app, please contact me using the contact form below.""")
     stoggle("What if I want my user profile to be removed from ScribbleHub Explorer?",
-            """If you want your user profile to be removed, please contact me using the [contact form](#contact) below.""")
+            """If you want your user profile to be removed, please contact me using the contact form below.""")
     stoggle("Is ScribbleHub Explorer affiliated with ScribbleHub?",
             """No, ScribbleHub Explorer is not affiliated with ScribbleHub in any way. It's a personal project 
             created by me ("Unknown Novelist") with the goal of helping readers discover new novels and helping
@@ -137,11 +137,11 @@ readers and authors. """)
             rating the novels that you like! This will help the AI learn what you like and generate more accurate 
             recommendations.""")
     stoggle("What's with the anime girl in the sidebar?",
-            """Ah, yes. I see you've met [NUF-chan](https://forum.novelupdates.com/members/nuf-mascot.52471/). 
+            """Ah, yes. I see you've met NUF-chan (https://forum.novelupdates.com/members/nuf-mascot.52471/). 
             She's apparently NovelUpdates' (a sister site to ScribbleHub) mascot.""")
     stoggle("Will you host my artwork in the sidebar?",
             """Yes! Please format your picture to a 150x150 pixel size and contact me using the 
-            [contact form](#contact) below.""")
+            contact form below.""")
     stoggle("""I have a public reading list, but why does it say that "user hasn't been crawled?""",
             """There can be several reason behind this. Most likely it's because your reading list has less than 
             5 novels. Other reasons could be that you've only recently made it public and that the Spiders have 
@@ -155,20 +155,20 @@ readers and authors. """)
                 To combat this, IMDB made a simple, but very effective math calculation to factor in popularity, 
                 average rating, and number of votes. This is the same algorithm that sits behind IMDB's Top 250 
                 Movies. The equation is like this:  \n
-            $${(WR) = \dfrac{v}{(v+m)} \\times R + \dfrac{m}{(v+m)} \\times C}.$$  
-            Where;  
-            - *R* = average for the movie (mean) = (Rating)  
-            - *v* = number of votes for the movie = (votes)  
-            - *m* = minimum votes required to be listed in the Top 250 (currently 25000)  
-            - *C* = the mean vote across the whole report (currently 7.0)  
+$${(WR) = \dfrac{v}{(v+m)} \\times R + \dfrac{m}{(v+m)} \\times C}.$$  
+Where;  
+- *R* = average for the movie (mean) = (Rating)  
+- *v* = number of votes for the movie = (votes)  
+- *m* = minimum votes required to be listed in the Top 250 (currently 25000)  
+- *C* = the mean vote across the whole report (currently 7.0)
 
-            The advantage of using this equation to calculate the ratings is that it takes the average rating 
-            across all items into account, and the number of votes casts including the minimum number to be 
-            considered (ScribbleHub Explorer has this set to the 90th percentile). With this, novels with only 
-            one 5* star rating will not have the same impact, or *weight* as a popular novel with many votes, 
-            but not as high an average rating.
-            <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-            <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>""")
+The advantage of using this equation to calculate the ratings is that it takes the average rating 
+across all items into account, and the number of votes casts including the minimum number to be 
+considered (ScribbleHub Explorer has this set to the 90th percentile). With this, novels with only 
+one 5* star rating will not have the same impact, or *weight* as a popular novel with many votes, 
+but not as high an average rating.
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>""")
     stoggle("Is your Top 100 list specially curated by you?",
             """See my answer above.""")
     stoggle("""Why does the CB Engine and CF Engine's "Similar Items" give me different recommendations?""",

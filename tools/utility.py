@@ -49,7 +49,7 @@ def load_novels():
 
     return decompress_unpickle("https://github.com/alexkahler/scribbleHub-recsys/blob/master/models/novels.zst?raw=true")
 
-@st.cache_resource
+@st.cache_resource(show_spinner=False)
 def load_cf_models():
     """Load and decompress pickled Collaborative Filtering mappings data from RecSys.
 
@@ -58,7 +58,7 @@ def load_cf_models():
     """
     return decompress_unpickle("https://github.com/alexkahler/scribbleHub-recsys/blob/master/models/mappings.zst?raw=true")
  
-@st.cache_resource
+@st.cache_resource(show_spinner=False)
 def load_als():
     """Load Alternating Least Squares model.
 
