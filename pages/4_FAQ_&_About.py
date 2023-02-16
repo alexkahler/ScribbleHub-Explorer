@@ -29,7 +29,7 @@ community. So, I came up with a way to give back to the community and help keep 
 that it is.
 
 So, what is **ScribbleHub Explorer**? It's a recommendation system with two parts. The first part is a "pure" 
-*content-based recommendation system* that calculates the cosine similarity between the input and all other 
+*Content-based Recommendation System* that calculates the Cosine Similarity between the input and all other 
 novels found on ScribbleHub. This system uses existing "features" such as the novel's synopsis, genres, tags,
 fandom, rating, etc. to generate recommendations. While these recommendations are not personalized, they can
 still be pretty good if you spend a little effort selecting filters, etc.
@@ -45,7 +45,7 @@ more about in the [future updates](#future-updates) section below.
 
 But that's just the tip of the iceberg! There are two supporting projects that make **ScribbleHub Explorer**
 possible. The first is the **ScribbleHub Spiders**, the workhorse behind gathering all the necessary data.
-The Spiders crawl through all 23,000+ novels and save the main-page statistics and 200,000+ users. It's 
+The Spiders crawl through all 23,000+ novels and save the main-page statistics and 120,000+ users. It's 
 important to note that I do NOT collect any copyrighted material or personal information, such as chapter 
 content or user details like location. The Spiders only collect the minimum required information according to 
 ethical scraping guidelines such as the title, synopsis, rating, readers, favorites, and number of chapters.
@@ -172,7 +172,15 @@ readers and authors. """)
     stoggle("Is your Top 100 list specially curated by you?",
             """See my answer above.""")
     stoggle("""Why does the CB Engine and CF Engine's "Similar Items" give me different recommendations?""",
-            """TODO:  """)
+            """Short answer: They're different. Slightly longer answer: The reason that they generate different recommendations
+            is due the different way that they work. The Content-Based Engine only uses the novel's meta-information
+            such as synopsis, genres, tags, and ratings to compare all other novels on ScribbleHub and then calculate
+            a ranking list on what is most similar to what you gave it. The Collaborative Filtering Engine is more
+            advanced. It uses a complex AI technique to figure out what you like, and then compares your reading list
+            with everyone else's to understand what you might be missing out on. In short, it doesn't actually use any
+            of the meta-data that each novel has, but "merely" by understanding what everyone else is reading, it can
+            come up with a similar novel recommendation based on that. This is why the two systems might give completely
+            different recommendations.""")
     stoggle("""What can I do as an author to improve my ranking in the Content-Based Recommendations?""",
             """There are several things that you can do as an author to help improve your ranking visibility.  
             Here are the key takeaways:
