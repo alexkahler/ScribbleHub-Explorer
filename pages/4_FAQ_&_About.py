@@ -15,10 +15,18 @@ def main():
     st.markdown("### aka. the FAQ and about page")
     st.markdown('___')
     st.markdown("""
-    Welcome to **ScribbleHub Explorer**, your one-stop-shop for finding your next web-novel (or so I hope)!  
-    As an avid reader, have you ever found yourself in a nightmare where you can't seem to find any good stories?
-    Well, Unknown Novelist (that's me!) has been there too. That's why I created this project, to help readers 
-    like you and me find the next great novel to sink our teeth into.
+*Update - 16-02-2023: Tony has asked me to stop scraping SH, so I will not be able to update the ScribbleHub Explorer
+unless something changes in the future. I don't know if I will keep adding features, just because it's a good way to train my programming skills.
+The dataset used in this app is from around last week of January 2023, and the novels are from the beginning of 
+Februray 2023. The reading lists had some issues due to the way it was collected, and as such, not all users are 
+part of the initial load. If you aren't one of them. Then, sorry. Tough luck.  
+I do appreciate you stopping by, and I wish you luck in finding your next novel to read.  
+/Unknown Novelist*
+                
+Welcome to **ScribbleHub Explorer**, your one-stop-shop for finding your next web-novel (or so I hope)!  
+As an avid reader, have you ever found yourself in a nightmare where you can't seem to find any good stories?
+Well, Unknown Novelist (that's me!) has been there too. That's why I created this project, to help readers 
+like you and me find the next great novel to sink our teeth into.
 
 **ScribbleHub Explorer** was created with three key goals in mind: to help aspiring authors get more readers who
 love their stories, to enable readers find a good story that suits their taste, and to help 
