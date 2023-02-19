@@ -16,7 +16,7 @@ def main():
     st.markdown('___')
     st.markdown("""
 *Update - 19-02-2023: I'm brainstorming ways to get the necessary data without accessing SH servers. Stay tuned for updates on [SH Forums](https://forum.scribblehub.com/threads/scribblehub-explorer-%E2%80%93-an-ai-powered-novel-recommendation-engine-feedback-needed.13028/)
-*Update - 16-02-2023: Tony has asked me to stop scraping SH, so I will not be able to update the ScribbleHub Explorer
+Update - 16-02-2023: Tony has asked me to stop scraping SH, so I will not be able to update the ScribbleHub Explorer
 unless something changes in the future. I don't know if I will keep adding features, just because it's a good way to train my programming skills.
 But this will not include updated content (novels and users). The dataset used in this app is from around last week of January 2023, and the novels are from the beginning of 
 Februray 2023. The reading lists had some issues due to the way it was collected, and as such, not all users are 
