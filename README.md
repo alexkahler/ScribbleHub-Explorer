@@ -1,4 +1,13 @@
 # ScribbleHub Explorer
+
+*Update - 16-02-2023: Tony has asked me to stop scraping SH, so I will not be able to update the ScribbleHub Explorer
+unless something changes in the future. I don't know if I will keep adding features, just because it's a good way to train my programming skills.
+But this will not include updated content (novels and users). The dataset used in this app is from around last week of January 2023, and the novels are from the beginning of 
+Februray 2023. The reading lists had some issues due to the way it was collected, and as such, not all users are 
+part of the initial load. If you aren't one of them. Then, sorry. Tough luck.  
+I do appreciate you stopping by, and I wish you luck in finding your next novel to read.  
+/Unknown Novelist*
+
 ScribbleHub Explorer is a project aimed at providing AI powered recommendations for users of ScribbleHub. It does so by using two recommendation systems - a Content-Based Recommendation System based on Cosine Similarity and a User-Item Collaborative Filtering Recommendation System using Alternating Least Squares (Matrix Factorization). The dataset used for these recommendations is generated from implicit feedback scraped from ScribbleHub reading lists.
 
 The project includes a Top 100 page which uses IMDB's Top 250 ranking system, a statistics page and several other pages.
