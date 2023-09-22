@@ -226,6 +226,7 @@ but not as high an average rating.
 - There's some weird behaviour going on in the Top 100 list when you combine filters and the number to show.
 - When selecting a filter (Genre or Tag) and navigating to the Stats or About page, and back to a page where filters are enabled, you will not be able to remove the filters without first removing them re-adding them again.
 - Generally, any bug can be fixed by refreshing the page. If this doesn't work for you, please contact me.  
+- There are some issues with displaying columns on mobile.
   
 Please be patient as I work to fix these bugs. In the mean time, here's a button that you can smash to take out your frustrations.""")
     st.button('Button', on_click=button_counter)
